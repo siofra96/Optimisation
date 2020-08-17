@@ -39,6 +39,7 @@ such that ![equation](http://latex.codecogs.com/gif.latex?\quad&space;||A_{k}(h)
 
 ![equation](http://latex.codecogs.com/gif.latex?b_{k}=\begin{bmatrix}Real(H_{des}(\omega_{k})&space;\\Imaginary(H_{des}(\omega_{k})&space;\end{bmatrix})
 
+
 ![equation](http://latex.codecogs.com/gif.latex?h_{t}=\begin{bmatrix}h_{0}&space;\\...\\h_{n-1}\end{bmatrix})
 
 
