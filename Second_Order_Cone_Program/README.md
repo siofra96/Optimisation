@@ -1,4 +1,3 @@
-# Optimisation
 Problem 5: System Design
 ========================
 
