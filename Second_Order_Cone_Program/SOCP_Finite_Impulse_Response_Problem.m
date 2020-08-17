@@ -23,7 +23,7 @@ fun=@(x) dot(x, z); %objective function to minimise, minimise t which is represe
 [h_opt, fval] = fmincon(fun,x0,[],[],[],[],[],[],@constr);
 
 
-N=6; %Given in problem
+N=6; 
 for j=1:N
     t(j)=j-1;
 end
@@ -58,7 +58,7 @@ omega=T{:,1}; %specify the range of frequency values
 abs_H_des=T{:,2};%specify the modulus of the desired response
 arg_H_des=T{:,3};%specify the argument of the desired response
 
-N=6; %Given in problem
+N=6; 
 for j=1:N
     t(j)=j-1;
 end
