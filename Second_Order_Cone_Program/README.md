@@ -23,9 +23,9 @@ An optimisation program is formulated which aims to minimise the maximum differe
 
 The resulting program is as follows:
 
-minimise ![equation](http://latex.codecogs.com/gif.latex?&space;max|H(\omega_{k})-H_{des}(\omega_{k})|,&space;k=1,....,101\\)
+![equation](http://latex.codecogs.com/gif.latex?&space;minimise%28max|H(\omega_{k})-H_{des}(\omega_{k})|,&space;k=1,....,101\\%29)
 
-such that ![equation](http://latex.codecogs.com/gif.latex?\quad&space;H(\omega)=\sum^{n-1}_{t=0}h_{t}cos(t\omega)+j\sum^{n-1}_{t=0}h_{t}sin(t\omega))
+such that:   ![equation](http://latex.codecogs.com/gif.latex?\quad&space;H(\omega)=\sum^{n-1}_{t=0}h_{t}cos(t\omega)+j\sum^{n-1}_{t=0}h_{t}sin(t\omega))
 
 Using data from 'Desired_Response_Data.csv' where the first column denotes the normalised value of the frequency, ![equation](http://latex.codecogs.com/gif.latex?\omega), the second column denotes the absolute value of H in dB and the third column denotes the argument of H in degrees.
 
