@@ -1,4 +1,4 @@
-## System Design Example
+## Example of Designing a System Based on a Desired Impulse Response
 
 An n-th order system that has the following Finite Impulse Response (FIR):
 
