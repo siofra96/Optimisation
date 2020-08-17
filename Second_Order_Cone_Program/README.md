@@ -1,4 +1,4 @@
-$$System Design Example
+$$ System Design Example
 
 An n-th order system that has the following Finite Impulse Response (FIR):
 
