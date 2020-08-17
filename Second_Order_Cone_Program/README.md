@@ -35,10 +35,10 @@ minimise ![equation](http://latex.codecogs.com/gif.latex?t)
 
 such that ![equation](http://latex.codecogs.com/gif.latex?||A_{k}(h)-b_{k}||\leq&space;t,&space;k=1,....,101\\)
 
-![equation](http://latex.codecogs.com/gif.latex?A_{k}=\begin{bmatrix}1&\cos{\omega_{k}}&...&\cos{(n-1)\omega_{k}}\\0&-\sin{\omega_{k}}&...&-\sin{(n-1)\omega_{k}}\end{bmatrix})
+![equation](http://latex.codecogs.com/gif.latex?A_{k}=\begin{bmatrix}1&\cos{\omega_{k}}&...&\cos{(n-1)\omega_{k}}\\\\0&-\sin{\omega_{k}}&...&-\sin{(n-1)\omega_{k}}\end{bmatrix})
 
-![equation](http://latex.codecogs.com/gif.latex?b_{k}=\begin{bmatrix}\mathfrak{Re}%28H_{des}%28\omega_{k}%29%29\\\mathfrak{Im}%28H_{des}%28\omega_{k}%29%29&space;\end{bmatrix})
+![equation](http://latex.codecogs.com/gif.latex?b_{k}=\begin{bmatrix}\mathfrak{Re}%28H_{des}%28\omega_{k}%29%29\\\\&space;\mathfrak{Im}%28H_{des}%28\omega_{k}%29%29\end{bmatrix})
 
-![equation](http://latex.codecogs.com/gif.latex?h_{t}=\begin{bmatrix}h_{0}&space;\\...\\h_{n-1}\end{bmatrix})
+![equation](http://latex.codecogs.com/gif.latex?h_{t}=\begin{bmatrix}h_{0}&space;\\\\...\\\\h_{n-1}\end{bmatrix})
 
 
