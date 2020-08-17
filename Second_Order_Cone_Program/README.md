@@ -33,12 +33,11 @@ The optimisation problem regenerated as a second order conical program is as fol
 
 minimise ![equation](http://latex.codecogs.com/gif.latex?\quad&space;t)
 
-such that ![equation](http://latex.codecogs.com/gif.latex?\quad&space;||A_{k}(h)-b_{k}||\leq t,&space;\quad k=1,....,101\\)
+such that ![equation](http://latex.codecogs.com/gif.latex?\quad&space;||A_{k}(h)-b_{k}||\leq&space;t,&space;\quad k=1,....,101\\)
 
 ![equation](http://latex.codecogs.com/gif.latex?A_{k}=\begin{bmatrix}1&cos(\omega_{k})&....&cos((n-1)\omega_{k})\\0&-sin(\omega_{k})&....&-sin((n-1)\omega_{k})\end{bmatrix})
 
 ![equation](http://latex.codecogs.com/gif.latex?b_{k}=\begin{bmatrix}Real(H_{des}(\omega_{k})&space;\\Imaginary(H_{des}(\omega_{k})&space;\end{bmatrix})
-
 
 ![equation](http://latex.codecogs.com/gif.latex?h_{t}=\begin{bmatrix}h_{0}&space;\\...\\h_{n-1}\end{bmatrix})
 
