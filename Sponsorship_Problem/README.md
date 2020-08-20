@@ -22,7 +22,7 @@ The table of rankings created by the competitors is
 
 Based on these two ranking matrices, a consensus matrix C is created where 
 
-![equation](http://latex.codecogs.com/gif.latex?C_{ij}=R^{s\rightarrow&space;c}_{ij}xR^{c\rightarrow&space;s}_{ji})
+![equation](http://latex.codecogs.com/gif.latex?C_{ij}=R^{s\rightarrow&space;c}_{ij}*R^{c\rightarrow&space;s}_{ji})
 
 The objective function to maximise is
 
