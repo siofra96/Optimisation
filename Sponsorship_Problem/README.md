@@ -13,11 +13,19 @@ A sponsor gives between 0 and 5 points to a competitor, 0 is given if it does no
 5 points in the case of strong intention to collaborate. The same rule applies for each competitor to rank a sponsor.
 
 The table of rankings created by the sponsors is
+
 ![equation](http://latex.codecogs.com/gif.latex?R^{s\rightarrow&space;c})
+
 The table of rankings created by the competitors is
+
 ![equation](http://latex.codecogs.com/gif.latex?R^{c\rightarrow&space;s})
 
 Based on these two ranking matrices, a consensus matrix C is created where 
+
 ![equation](http://latex.codecogs.com/gif.latex?C_{ij}=R^{s\rightarrow&space;c}_{ij}xR^{c\rightarrow&space;s}_{ji})
 
-The objective function is to maximise 
+The objective function to maximise is
+
+![equation](http://latex.codecogs.com/gif.latex?\sum_{ij}X_{ij}C_{ij})  
+
+Where the entries of X are 1 (indicating a collaboration) or 0 (no collaboration)
